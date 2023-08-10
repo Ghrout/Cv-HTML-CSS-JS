@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Responsive resume cv</title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo"></a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active_link">
+                            <i class='bx bx-home-alt-2 nav__icon'></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>Perfil
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon'></i>Education
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'></i>Experiencia
+                        </a>
+                    </li>
+                    <!-- <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class='bx bx-link-external nav__icon'></i>Certificaciones
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#references" class="nav__link">
+                            <i class='bx bx-link-external nav__icon'></i>Referencias
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/perfil.png" alt="" class="home__img">
+                            <h1 class="home__title">Sebastian<br>Ramirez</br></h1>
+                            <h3 class="home_profession"></h3>
+
+                            <div>
+                                <a download="" href="assets/pdf/ResumeCv.pdf"
+                                    class="home__button-movil">Descargar/Download</a>
+                            </div>
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon'></i> Bogotá - Colombia
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-envelope-open home__icon'></i> ghrout@outlook.com
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon'></i> +57 320 4627207
+                            </span>
+                        </div>
+                    </div>
+                    <!-- CAMBIO DE TEMA -->
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                    <!-- BUTTON TO GENERATE DOWLOAD -->
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button" ></i>
+                </section>
+
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <h2 class="section-title">Social</h2>
+                    <div class="social__container bd-grid">
+                        <a href="https://www.linkedin.com/in/sjrm/" target="_blank" class="social__link">
+                            <i class='bx bxl-linkedin social__icon'>@sjrm</i>
+                        </a>
+                        <a href="https://github.com/Ghrout" target="_blank" class="social__link">
+                            <i class='bx bxl-github social__icon'>@Ghrout</i>
+                        </a>
+                        <a href="https://www.instagram.com/sebs_0l0/" target="_blank" class="social__link">
+                            <i class='bx bxl-instagram social__icon'></i>@sebs_0l0</i>
+                        </a>
+                    </div>
+                </section>
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+                    <p class="profile__description">Soy un programador junior apasionado y motivado, con habilidades en
+                        el desarrollo de software y un enfoque en el aprendizaje y crecimiento continuo. Tengo
+                        experiencia en lenguajes de programación como PHP, Laravel, Python, JavaScript y MySQL, así como
+                        conocimientos básicos de bases de datos y desarrollo web.</p>
+                </section>
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education_title">Ingeniería de Software</h3>
+                                <span class="education_studies">Uninpahu</span>
+                                <span class="education_year">2023 - En Curso</span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education_title">Diplomado en Programación Básica</h3>
+                                <span class="education_studies">MinTic - U. del Norte</span>
+                                <span class="education_year">2022 - 2022</span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <!-- <span class="education__line"></span> -->
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education_title">Bachiller Académico</h3>
+                                <span class="education_studies">I.E.D. El Salitre</span>
+                                <span class="education_year">2009 - 2014</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <div class="skills__content bd-grid">
+                        <ul class="skills_data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>HTML
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>CSS
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>PHP
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Laravel
+                            </li>
+                        </ul>
+                        <ul class="skills_data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>MySQL
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>JavaScript
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Phython
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="resume__right">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience data bd-grid">
+                                <h3 class="experience__title">Desarrollador Web</h3>
+                                <span class="experience__company">2023 - Presente | Disytek</span>
+                                <p class="experience__description">Programador junior experimentado con conocimientos en
+                                    HTML, CSS, Python, PHP, Laravel y SQL. Capacidad para desarrollar aplicaciones web y
+                                    resolver problemas. Orientado al trabajo en equipo y siempre dispuesto a aprender y
+                                    mejorar habilidades técnicas.<br>
+                                    Participé en el desarrollo de aplicaciones web utilizando HTML, CSS, JavaScript y
+                                    PHP. Colaboré en la creación de interfaces de usuario atractivas y responsivas
+                                    utilizando frameworks CSS como Tailwind.<br>
+                                    Implementé funcionalidades interactivas utilizando JavaScript y jQuery. Trabajé en
+                                    estrecha colaboración con el equipo de diseño y los clientes para comprender los
+                                    requisitos del proyecto y entregar soluciones efectivas. Realicé pruebas exhaustivas
+                                    y depuración de aplicaciones web para garantizar su funcionamiento correcto.</p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+                            <div class="experience data bd-grid">
+                                <h3 class="experience__title">Asesor en servicio al Cliente</h3>
+                                <span class="experience__company">2020 - 2022 | Teleperformance</span>
+                                <p class="experience__description">Asesor en servicio al cliente con amplia experiencia
+                                    en atención vía chat y telefónica. Excelentes habilidades de comunicación verbal y
+                                    escrita, así como un enfoque orientado al cliente. Capacidad para resolver problemas
+                                    de manera efectiva, mantener la calma bajo presión y brindar soluciones
+                                    satisfactorias para garantizar la satisfacción del cliente.
+                                    <br>
+                                    Proporcioné asistencia y soporte a los clientes a través de canales de comunicación
+                                    como chat en línea y llamadas telefónicas. Resolví consultas, quejas y problemas de
+                                    los clientes de manera eficiente y amigable, manteniendo un alto nivel de
+                                    satisfacción del cliente. Proporcioné información precisa y completa sobre
+                                    productos, servicios y políticas de la empresa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <!-- ========== CERTIFICATES ==========
+        <section class="certificate section" id="certificates">
+
+        </section>
+
+        <--========== REFERENCES ==========-->
+                <!-- <section class="references section" id="references">
+
+        </section> -->
+
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section">
+                    <h2 class="section-title">Idiomas</h2>
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Español
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Ingles
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Portugues
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--========== INTERESTS ==========-->
+                <section class="interests section">
+                    <h2 class="section-title">Intereses</h2>
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class='bx bx-headphone interests__icon'></i>
+                            <span class="interests__name">Musica</span>
+                        </div>
+                        <div class="interests__content ">
+                            <i class='bx bxs-plane-alt interests__icon'></i>
+                            <span class="interests__name">Viajar</span>
+                        </div>
+                        <div class="interests__content ">
+                            <i class='bx bx-book-reader interests__icon'></i>
+                            <span class="interests__name">Leer</span>
+                        </div>
+                        <div class="interests__content ">
+                            <i class='bx bx-game interests__icon'></i>
+                            <span class="interests__name">Video<br>Juegos</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
